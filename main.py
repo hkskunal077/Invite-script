@@ -86,6 +86,7 @@ def exit_handler(*_):
 
 if __name__ == '__main__':
     start_time = time.time()
+    
 
     signal.signal(signal.SIGINT, exit_handler)
     parser = argparse.ArgumentParser(
